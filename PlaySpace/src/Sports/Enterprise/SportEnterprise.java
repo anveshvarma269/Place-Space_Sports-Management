@@ -12,8 +12,8 @@ import java.util.ArrayList;
  *
  * @author vishnuteja
  */
-public class SportsEnterprise  extends Enterprise {
-      public SportsEnterprise(String name){
+public class SportEnterprise  extends Enterprise {
+      public SportEnterprise(String name){
         super(name, EnterpriseType.Sports);
     }
     @Override

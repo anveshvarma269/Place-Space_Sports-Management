@@ -9,6 +9,15 @@ package Sports.WorkQueue;
  *
  * @author vishnuteja
  */
-public class WorkQueue {
+public class LabTestWorkRequest {
+    private String testResult;
+
+    public String getTestResult() {
+        return testResult;
+    }
+
+    public void setTestResult(String testResult) {
+        this.testResult = testResult;
+    }
     
 }

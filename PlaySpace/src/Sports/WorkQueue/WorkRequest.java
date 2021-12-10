@@ -12,8 +12,7 @@ import java.util.Date;
  *
  * @author vishnuteja
  */
-public abstract class WorkRequest {
-
+public class WorkRequest {
     private String message;
     private UserAccount sender;
     private UserAccount receiver;
@@ -71,5 +70,5 @@ public abstract class WorkRequest {
 
     public void setResolveDate(Date resolveDate) {
         this.resolveDate = resolveDate;
-    }
+    }    
 }
