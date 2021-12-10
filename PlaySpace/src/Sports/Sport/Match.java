@@ -5,6 +5,7 @@
 package Sports.Sport;
 
 import Sports.Team.Team;
+import Sports.Venue.Venue;
 import java.util.Date;
 
 /**
