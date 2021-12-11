@@ -7,7 +7,7 @@ package Sports.Organization;
 
 import Sports.Role.Role;
 import Sports.Venue.VenueDirectory;
-import Sports.role.VenueManagerRole;
+import Sports.Role.VenueManagerRole;
 import java.util.ArrayList;
 
 /**

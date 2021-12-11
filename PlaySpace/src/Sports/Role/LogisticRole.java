@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Sports.role;
+package Sports.Role;
 
 import Sports.EcoSystem;
 import Sports.Enterprise.Enterprise;
@@ -13,12 +13,12 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author vishnuteja
+ * @author VishnuTeja
  */
-public class TeamManagerRole {
+public class LogisticRole extends Role{
+
     @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

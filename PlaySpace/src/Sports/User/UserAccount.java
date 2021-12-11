@@ -15,6 +15,7 @@ import Sports.Role.Role;
  * @author vishnuteja
  */
 public class UserAccount {
+        
     private String username;
     private String password;
     private Employee employee;
@@ -42,7 +43,22 @@ public class UserAccount {
         
     }
     
+    
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    public UserAccount() {
+        workQueue = new WorkQueue();
+        this.accountStatus = "Access requested";
+    }
+    
+    
+    
     public String getUsername() {
         return username;
     }
@@ -85,6 +101,6 @@ public class UserAccount {
     public String toString() {
         return username;
     }
-
     
+       
 }

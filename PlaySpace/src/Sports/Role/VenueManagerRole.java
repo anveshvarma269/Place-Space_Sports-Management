@@ -1,24 +1,22 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Sports.role;
+package Sports.Role;
 
 import Sports.EcoSystem;
 import Sports.Enterprise.Enterprise;
 import Sports.Organization.Organization;
-import Sports.Role.Role;
 import Sports.User.UserAccount;
 import javax.swing.JPanel;
 
 /**
  *
- * @author anveshvarma
+ * @author revanthkumar
  */
-public class EquipmentSupplierRole extends Role {
+public class VenueManagerRole extends Role {
     
-        @Override
+    @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
         throw new UnsupportedOperationException("Not supported yet.");
     }

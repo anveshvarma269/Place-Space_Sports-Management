@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Sports.role;
+package Sports.Role;
 
 import Sports.EcoSystem;
 import Sports.Enterprise.Enterprise;
@@ -13,14 +13,11 @@ import javax.swing.JPanel;
 /**
  *
  * @author revanthkumar
- */
-public class DoctorRole extends Role{
+ */public class SponsorRole extends Role {
 
-    
-    
-
+    @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

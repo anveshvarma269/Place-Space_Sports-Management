@@ -11,17 +11,18 @@ import Sports.Enterprise.Enterprise;
 import Sports.Enterprise.EnterpriseDirectory;
 import Sports.Organization.Organization;
 import Sports.Organization.OrganizationDirectory;
-import Sports.Organization.SystemAdminRole;
 import Sports.User.UserAccount;
 import Sports.User.UserAccountDirectory;
-
+import Sports.Role.SystemAdminRole;
 /**
  *
  * @author anveshvarma
  */
 public class ConfigureASystem {
     
-        public static EcoSystem configure(){
+       
+
+    public static EcoSystem configure(){
         
         EcoSystem system = EcoSystem.getInstance();
         EmployeeDirectory employeeDirectory = system.getEmployeeDirectory();

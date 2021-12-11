@@ -6,7 +6,7 @@ package Sports.Organization;
 
 import Sports.Role.Role;
 import Sports.Sponsor.SponsorDirectory;
-import Sports.role.SponsorRole;
+import Sports.Role.SponsorRole;
 import java.util.ArrayList;
 
 /**

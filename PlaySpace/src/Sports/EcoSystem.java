@@ -8,7 +8,7 @@ package Sports;
 import Sports.Employee.EmployeeDirectory;
 import Sports.Enterprise.EnterpriseDirectory;
 import Sports.Organization.Organization;
-import Sports.Organization.SystemAdminRole;
+import Sports.Role.SystemAdminRole;
 import Sports.Role.Role;
 import Sports.User.UserAccountDirectory;
 import java.util.ArrayList;
