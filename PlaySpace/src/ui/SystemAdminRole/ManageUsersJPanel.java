@@ -5,7 +5,6 @@
  */
 package ui.SystemAdminRole;
 
-
 import Sports.EcoSystem;
 import Sports.User.UserAccount;
 import Sports.User.UserAccountDirectory;
@@ -15,6 +14,7 @@ import javax.rmi.CORBA.Util;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
+import Sports.Util.Util1;
 
 /**
  *
@@ -143,7 +143,7 @@ public class ManageUsersJPanel extends javax.swing.JPanel {
 
     private void btnGrantAccessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGrantAccessActionPerformed
         // TODO add your handling code here:
-         String passcode = Util.generatePassword();    
+         String passcode = Util1 .generatePassword();  
         DefaultTableModel df = (DefaultTableModel) tblManageUser.getModel();
         int selectedRow = tblManageUser.getSelectedRow();
         if(selectedRow == -1) {JOptionPane.showMessageDialog(this, "Select user to grant access");return;}
@@ -152,7 +152,7 @@ public class ManageUsersJPanel extends javax.swing.JPanel {
           user.setPasscode(passcode);
           user.setPassword(passcode);
           System.out.println(passcode);
-         // Util.SendEmail(user.getUsername(), passcode, user.getEmail());
+         // Util1.SendEmail(user.getUsername(), passcode, user.getEmail());
           ud.provideAccess(username);
           populateTable();
     }//GEN-LAST:event_btnGrantAccessActionPerformed

@@ -6,26 +6,37 @@
 package ui;
 
 import Sports.EcoSystem;
-import Sports.User.UserAccount;
+import Sports.User.UserAccountDirectory;
+import java.time.LocalTime;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import Sports.User.UserAccount;
+import Sports.DB40Util.DB4OUtil;
+
 
 /**
  *
  * @author anveshvarma
  */
 public class ActivateUserAccount extends javax.swing.JPanel {
+    
+    
+    
 
     /**
      * Creates new form ActivateUserAccount
      */
-    public ActivateUserAccount() {
+   JPanel container;
+    EcoSystem ecosystem;
+    UserAccountDirectory ud;
+    DB4OUtil db = DB4OUtil.getInstance();
+    public ActivateUserAccount(JPanel container,EcoSystem ecosystem) {
         initComponents();
-    }
-
-    ActivateUserAccount(JPanel container, EcoSystem ecosystem) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.container = container;
+        this.ecosystem = ecosystem;
+        ud = ecosystem.getUserAccountDirectory();
+        date.setText(" "+String.valueOf(LocalTime.now().getHour()) + ":"+String.valueOf(LocalTime.now().getMinute()));
     }
 
     /**
