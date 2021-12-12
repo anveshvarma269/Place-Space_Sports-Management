@@ -11,6 +11,17 @@ import Sports.Enterprise.Enterprise;
 import Sports.Enterprise.EnterpriseDirectory;
 import Sports.Organization.Organization;
 import Sports.Organization.OrganizationDirectory;
+/* Vishnu */
+import Sports.Role.SystemAdminRole;
+import Sports.User.UserAccount;
+import Sports.User.UserAccountDirectory;
+
+/**
+ *
+ * @author vishnuteja
+ */
+public class ConfigureASystem {
+/* Vishnu */
 import Sports.User.UserAccount;
 import Sports.User.UserAccountDirectory;
 import Sports.Role.SystemAdminRole;
@@ -20,6 +31,7 @@ import Sports.Role.SystemAdminRole;
  */
 public class ConfigureASystem {
     
+/* Vishnu */
        
 
     public static EcoSystem configure(){
@@ -43,7 +55,11 @@ public class ConfigureASystem {
         {
             userAccountDirectory = new UserAccountDirectory();
         }
+/* Vishnu */
+        UserAccount ua = userAccountDirectory.createUserAccount("sysadmin", "sysadmin", employee,  new SystemAdminRole());
+
         UserAccount ua = userAccountDirectory.createUserAccount("sysadmin", "sysadmin", employee, new SystemAdminRole());
+/* Vishnu */
         system.setEmployeeDirectory(employeeDirectory);
         system.setUserAccountDirectory(userAccountDirectory);
         
@@ -111,7 +127,13 @@ public class ConfigureASystem {
         
         
         system.setEnterpriseDirectory(ed);
+/* Vishnu */
+        return system;   
+}
+}
+
         return system;
     }
     
 }
+/* Vishnu */
