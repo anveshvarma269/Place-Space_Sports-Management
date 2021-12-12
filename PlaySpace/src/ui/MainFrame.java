@@ -44,7 +44,7 @@ public class MainFrame extends javax.swing.JFrame {
          {
              if(ua.getUsername().equals("doctor4") || ua.getUsername().equals("doctor3"))
              {
-                 ua.setEmail("charan.guttikonda@gmail.com");
+                 ua.setEmail("anveshvarma26@gmail.com");
              }
          }
     }
