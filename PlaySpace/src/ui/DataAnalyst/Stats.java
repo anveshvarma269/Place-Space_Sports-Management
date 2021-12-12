@@ -6,6 +6,12 @@
 package ui.DataAnalyst;
 
 
+import static com.db4o.qlin.QLinSupport.p;
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+
+
 import Sports.EcoSystem;
 import Sports.Sport.Match;
 import Sports.Sport.Sport;
@@ -25,6 +31,15 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PiePlot;
+import org.jfree.chart.plot.PiePlot3D;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.xy.XYDataset;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.CategoryPlot;
 import org.jfree.chart.plot.PiePlot;
