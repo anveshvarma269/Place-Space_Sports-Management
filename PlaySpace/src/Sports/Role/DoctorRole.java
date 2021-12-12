@@ -1,5 +1,6 @@
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 package Sports.Role;
@@ -10,7 +11,10 @@ import Sports.Organization.Organization;
 import Sports.User.UserAccount;
 import javax.swing.JPanel;
 
-
+/**
+ *
+ * @author vishnuteja
+ */
 public class DoctorRole extends Role{
 
     @Override
