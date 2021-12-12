@@ -4,27 +4,38 @@
  */
 package Sports.Organization;
 
+import Sports.Doctor.DoctorDirectory;
 import Sports.Role.Role;
-/* Vishnu */
-import static Sports.Role.Role.RoleType.PlayerRole;
-/* Vishnu */
+import Sports.Role.DoctorRole;
 import java.util.ArrayList;
 
 /**
  *
  * @author revanthkumar
  */
-public class TeamOrganization extends Organization {
+
+    public class DoctorsOrganization extends Organization {
     
-    public TeamOrganization()
+    DoctorDirectory dd ;
+
+    public DoctorDirectory getDd() {
+        return dd;
+    }
+
+    public void setDd(DoctorDirectory dd) {
+        this.dd = dd;
+    }
+    public DoctorsOrganization()
     {
-        super(Organization.Type.Team.getValue());
+        super(Organization.Type.Doctors.getValue());
+        dd = new DoctorDirectory();
     }
     
-      @Override
+
+    @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roles = new ArrayList<>();
+        roles.add(new DoctorRole());
         return roles;
     }
-    
 }

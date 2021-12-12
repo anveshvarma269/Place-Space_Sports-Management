@@ -5,26 +5,22 @@
 package Sports.Organization;
 
 import Sports.Role.Role;
-/* Vishnu */
-import static Sports.Role.Role.RoleType.PlayerRole;
-/* Vishnu */
 import java.util.ArrayList;
 
 /**
  *
  * @author revanthkumar
  */
-public class TeamOrganization extends Organization {
+
+    public class CoachesOrganization extends Organization {
     
-    public TeamOrganization()
+    public CoachesOrganization()
     {
-        super(Organization.Type.Team.getValue());
+        super(Organization.Type.Coaches.getValue());
     }
-    
-      @Override
+
+    @Override
     public ArrayList<Role> getSupportedRole() {
-        ArrayList<Role> roles = new ArrayList<>();
-        return roles;
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

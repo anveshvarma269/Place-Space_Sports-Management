@@ -5,26 +5,23 @@
 package Sports.Organization;
 
 import Sports.Role.Role;
-/* Vishnu */
-import static Sports.Role.Role.RoleType.PlayerRole;
-/* Vishnu */
 import java.util.ArrayList;
 
 /**
  *
  * @author revanthkumar
  */
-public class TeamOrganization extends Organization {
-    
-    public TeamOrganization()
+
+  public class TeamManagerOrganization extends Organization {
+   
+    public TeamManagerOrganization()
     {
-        super(Organization.Type.Team.getValue());
+        super(Organization.Type.Admin.getValue());
     }
     
       @Override
     public ArrayList<Role> getSupportedRole() {
         ArrayList<Role> roles = new ArrayList<>();
         return roles;
-    }
-    
+    }  
 }
