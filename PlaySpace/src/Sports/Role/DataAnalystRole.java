@@ -9,12 +9,11 @@ import Sports.EcoSystem;
 import Sports.Enterprise.Enterprise;
 import Sports.Organization.Organization;
 import Sports.User.UserAccount;
-
 import javax.swing.JPanel;
 
 /**
  *
- * @author VishnuTeja
+ * @author vishnuteja
  */
 public class DataAnalystRole extends Role{
 
