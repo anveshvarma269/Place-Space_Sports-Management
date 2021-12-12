@@ -5,15 +5,20 @@
  */
 package ui.DataAnalyst;
 
-import Business.EcoSystem;
-import Business.Sport.Match;
-import Business.Sport.Sport;
-import Business.Sport.SportDirectory;
-import Business.Team.Team;
+
 import static com.db4o.qlin.QLinSupport.p;
 import java.awt.CardLayout;
 import java.awt.Color;
 import java.awt.Dimension;
+
+
+import Sports.EcoSystem;
+import Sports.Sport.Match;
+import Sports.Sport.Sport;
+import Sports.Sport.SportDirectory;
+import Sports.Team.Team;
+import java.awt.CardLayout;
+import java.awt.Color;
 import java.util.ArrayList;
 import java.util.HashMap;
 /*
@@ -35,6 +40,12 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.xy.XYDataset;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PiePlot;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 

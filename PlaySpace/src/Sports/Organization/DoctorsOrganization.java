@@ -6,7 +6,7 @@ package Sports.Organization;
 
 import Sports.Doctor.DoctorDirectory;
 import Sports.Role.Role;
-import Sports.role.DoctorRole;
+import Sports.Role.DoctorRole;
 import java.util.ArrayList;
 
 /**

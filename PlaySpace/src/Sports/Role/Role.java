@@ -17,7 +17,6 @@ import javax.swing.JPanel;
  */
 public abstract class Role {
     
- 
     public enum RoleType{
         Admin("Admin Role"),
         Doctor("Doctor"),
@@ -62,4 +61,6 @@ public abstract class Role {
         return this.getClass().getName();
     }
 
+    
+    
 }

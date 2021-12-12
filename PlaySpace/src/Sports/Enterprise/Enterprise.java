@@ -5,19 +5,35 @@
  */
 package Sports.Enterprise;
 
+
+import Sports.Organization.Organization;
 import Sports.Organization.OrganizationDirectory;
+
+import java.util.ArrayList;
+
+import Sports.Organization.OrganizationDirectory;
+
 
 /**
  *
  * @author vishnuteja
  */
-public class Enterprise {
+
+public abstract class Enterprise extends Organization{
+
+
+
     private EnterpriseType enterpriseType;
     private OrganizationDirectory organizationDirectory;
 
     public OrganizationDirectory getOrganizationDirectory() {
         return organizationDirectory;
     }
+
+
+    
+
+
     
     public enum EnterpriseType{
         Sports("Sports"),

@@ -10,6 +10,7 @@ import Sports.EcoSystem;
 import Sports.Sport.Match;
 import Sports.Sport.Sport;
 import Sports.Sport.SportDirectory;
+import Business.EcoSystem;
 import java.awt.CardLayout;
 import java.awt.Image;
 import java.util.ArrayList;

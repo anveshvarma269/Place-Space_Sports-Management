@@ -7,7 +7,7 @@ package Sports.Organization;
 
 import Sports.Role.Role;
 import Sports.Supplier.SupplierDirectory;
-import Sports.role.EquipmentSupplierRole;
+import Sports.Role.EquipmentSupplierRole;
 import java.util.ArrayList;
 
 /**

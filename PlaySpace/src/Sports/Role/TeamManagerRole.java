@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Sports.role;
+package Sports.Role;
 
 import Sports.EcoSystem;
 import Sports.Enterprise.Enterprise;
 import Sports.Organization.Organization;
-import Sports.Role.Role;
 import Sports.User.UserAccount;
 import javax.swing.JPanel;
 
 /**
  *
- * @author anveshvarma
+ * @author vishnuteja
  */
-public class EquipmentSupplierRole extends Role {
-    
-        @Override
+public class TeamManagerRole extends Role {
+ 
+    @Override
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, Organization organization, Enterprise enterprise, EcoSystem business) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
