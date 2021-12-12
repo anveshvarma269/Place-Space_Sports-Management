@@ -307,14 +307,14 @@ public class MainFrame extends javax.swing.JFrame {
         {
             this.ua = useraccountDirectory.authenticateUser(username, password);
            
-        if(ua.getRole().toString().equals("Business.Role.SystemAdminRole"))
+        if(ua.getRole().toString().equals("Sports.Role.SystemAdminRole"))
         {
             SysadminWorkspace sa = new SysadminWorkspace(container, ecosystem);
             container.add("Sysadmin",sa);
             CardLayout crdLyt = (CardLayout) container.getLayout();
             crdLyt.show(container,"Sysadmin");
         }
-        if(ua.getRole().toString().equals("Business.Role.AdminRole"))
+        if(ua.getRole().toString().equals("Sports.Role.AdminRole"))
         {
             AdminWorkspace aw = new AdminWorkspace(container,ua,ecosystem);
             container.add("adminWorkspace",aw);
@@ -322,7 +322,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"adminWorkspace");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.TeamManagerRole"))
+        if(ua.getRole().toString().equals("Sports.Role.TeamManagerRole"))
         {
             TeamManagerWorkspace tw = new TeamManagerWorkspace(container, ua,ecosystem);
             container.add("teamManager",tw);
@@ -330,14 +330,14 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"teamManager");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.VenueManagerRole"))
+        if(ua.getRole().toString().equals("Sports.Role.VenueManagerRole"))
         {
             VenueManagerWorkspace vm = new VenueManagerWorkspace(container, ua,ecosystem);
             container.add("venueManager",vm);
             CardLayout crdLyt = (CardLayout) container.getLayout();
             crdLyt.show(container,"venueManager");
         }
-        if(ua.getRole().toString().equals("Business.Role.DoctorRole"))
+        if(ua.getRole().toString().equals("Sports.Role.DoctorRole"))
         {
             DoctorWorkspace dw = new DoctorWorkspace(container, ua,ecosystem);
             container.add("doctorWorkspace",dw);
@@ -345,7 +345,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"doctorWorkspace");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.SponsorRole"))
+        if(ua.getRole().toString().equals("Sports.Role.SponsorRole"))
         {
             Sponsor_Home sh = new Sponsor_Home(container, ua,ecosystem);
             container.add("sponsorHome",sh);
@@ -353,7 +353,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"sponsorHome");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.EquipmentSupplierRole"))
+        if(ua.getRole().toString().equals("Sports.Role.EquipmentSupplierRole"))
         {
             SupplierWorkspace supW = new SupplierWorkspace(container, ua,ecosystem);
             container.add("supplierWorkspace",supW);
@@ -361,7 +361,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"supplierWorkspace");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.DataAnalystRole"))
+        if(ua.getRole().toString().equals("Sports.Role.DataAnalystRole"))
         {
             AnalystWorkspace aw = new AnalystWorkspace(container,ecosystem);
             container.add("analyst",aw);
@@ -369,7 +369,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"analyst");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.LogisticRole"))
+        if(ua.getRole().toString().equals("Sports.Role.LogisticRole"))
         {
             LogisticWorkSpace lw = new LogisticWorkSpace(container,ua,ecosystem);
             container.add("logistic",lw);
@@ -377,7 +377,7 @@ public class MainFrame extends javax.swing.JFrame {
             crdLyt.show(container,"logistic");
         }
         
-        if(ua.getRole().toString().equals("Business.Role.TravelTransportRole"))
+        if(ua.getRole().toString().equals("Sports.Role.TravelTransportRole"))
         {
             TravelManagerWorkspace trw = new TravelManagerWorkspace(container,ua,ecosystem);
             container.add("travelTransport",trw);
