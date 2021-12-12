@@ -17,8 +17,6 @@ import javax.swing.JPanel;
  */
 
 
-   public class SystemAdminRole extends Role{
-
 public class SystemAdminRole extends Role{
 
 

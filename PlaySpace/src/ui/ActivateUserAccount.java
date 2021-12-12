@@ -5,9 +5,11 @@
  */
 package ui;
 
+import Sports.EcoSystem;
 import Sports.User.UserAccount;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 
 /**
  *
@@ -20,6 +22,10 @@ public class ActivateUserAccount extends javax.swing.JPanel {
      */
     public ActivateUserAccount() {
         initComponents();
+    }
+
+    ActivateUserAccount(JPanel container, EcoSystem ecosystem) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
