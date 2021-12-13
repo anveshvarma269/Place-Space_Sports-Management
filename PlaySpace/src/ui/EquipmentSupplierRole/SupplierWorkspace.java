@@ -34,7 +34,7 @@ public class SupplierWorkspace extends javax.swing.JPanel {
         this.ecosystem = ecosystem;
         this.ua = ua;
         this.container = container;
-        lblEquip.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Equipment.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblEquip.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Equipment.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -119,7 +119,7 @@ public class SupplierWorkspace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(110, 110, 110)
                         .addComponent(jButton3)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 129, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 709, Short.MAX_VALUE)
                 .addComponent(lblEquip, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(85, 85, 85))
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
@@ -138,7 +138,7 @@ public class SupplierWorkspace extends javax.swing.JPanel {
                 .addComponent(jLabel4)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 292, Short.MAX_VALUE)
                         .addComponent(jButton1)
                         .addGap(26, 26, 26)
                         .addComponent(jButton2)
@@ -151,7 +151,7 @@ public class SupplierWorkspace extends javax.swing.JPanel {
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

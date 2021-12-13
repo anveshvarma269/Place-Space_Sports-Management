@@ -168,7 +168,7 @@ public class Sponsor_Team extends javax.swing.JPanel {
                                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(btnOffer, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(txtSpnAmt, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                        .addGap(0, 14, Short.MAX_VALUE)))
+                        .addGap(0, 594, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         kGradientPanel1Layout.setVerticalGroup(
@@ -190,10 +190,10 @@ public class Sponsor_Team extends javax.swing.JPanel {
                     .addComponent(txtSpnAmt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(btnOffer)
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addContainerGap(237, Short.MAX_VALUE))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

@@ -58,6 +58,7 @@ public class ViewScheduledMatchesJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblScd = new javax.swing.JTable();
+        kGradientPanel1 = new keeptoo.KGradientPanel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -83,7 +84,8 @@ public class ViewScheduledMatchesJPanel extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(tblScd);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 0, -1, -1));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, -1, -1));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -96,6 +98,7 @@ public class ViewScheduledMatchesJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JScrollPane jScrollPane1;
+    private keeptoo.KGradientPanel kGradientPanel1;
     private javax.swing.JTable tblScd;
     // End of variables declaration//GEN-END:variables
 

@@ -37,7 +37,7 @@ public class DoctorWorkspace extends javax.swing.JPanel {
         this.container = container;
         this.ecosystem = ecosystem;
         this.ua = ua;
-        lblDoc.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Doctor-symbol.png").getImage().getScaledInstance(270, 270, Image.SCALE_DEFAULT)));
+        lblDoc.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Medical-Symbol.png").getImage().getScaledInstance(270, 270, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -120,7 +120,7 @@ public class DoctorWorkspace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addComponent(btnLogout)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 672, Short.MAX_VALUE)
                 .addComponent(lblDoc, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(128, 128, 128))
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -146,7 +146,7 @@ public class DoctorWorkspace extends javax.swing.JPanel {
                         .addComponent(jLabel4)
                         .addGap(92, 92, 92)
                         .addComponent(lblDoc, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(102, Short.MAX_VALUE))
+                        .addContainerGap(282, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(viewAppointments)
@@ -157,7 +157,7 @@ public class DoctorWorkspace extends javax.swing.JPanel {
                         .addGap(205, 205, 205))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed

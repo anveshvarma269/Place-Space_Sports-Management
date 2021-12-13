@@ -77,7 +77,6 @@ public class RegisterJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        btnReqAccess = new javax.swing.JButton();
         Back = new javax.swing.JButton();
         kGradientPanel1 = new keeptoo.KGradientPanel();
         BasicInfoPanel = new javax.swing.JPanel();
@@ -116,21 +115,13 @@ public class RegisterJPanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         cmbRole = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
+        btnReqAccess = new javax.swing.JButton();
 
         setMaximumSize(new java.awt.Dimension(706, 488));
         setMinimumSize(new java.awt.Dimension(720, 620));
         setPreferredSize(new java.awt.Dimension(720, 620));
         setSize(new java.awt.Dimension(706, 488));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        btnReqAccess.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
-        btnReqAccess.setText("Request Access");
-        btnReqAccess.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnReqAccessActionPerformed(evt);
-            }
-        });
-        add(btnReqAccess, new org.netbeans.lib.awtextra.AbsoluteConstraints(545, 6, -1, -1));
 
         Back.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
         Back.setText("<< Back");
@@ -452,6 +443,14 @@ public class RegisterJPanel extends javax.swing.JPanel {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("User Registration");
 
+        btnReqAccess.setFont(new java.awt.Font("Avenir", 0, 14)); // NOI18N
+        btnReqAccess.setText("Request Access");
+        btnReqAccess.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnReqAccessActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
@@ -464,7 +463,9 @@ public class RegisterJPanel extends javax.swing.JPanel {
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(cmbRole, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(cmbRole, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(99, 99, 99)
+                                .addComponent(btnReqAccess))
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                 .addGap(2, 2, 2)
                                 .addComponent(BasicInfoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -479,22 +480,24 @@ public class RegisterJPanel extends javax.swing.JPanel {
                                 .addGap(18, 18, 18)
                                 .addComponent(LogisticsPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addGap(278, 278, 278)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 706, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(8, Short.MAX_VALUE))
+                .addContainerGap(316, Short.MAX_VALUE))
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                .addGap(89, 89, 89)
+                .addGap(94, 94, 94)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 233, Short.MAX_VALUE)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(3, 3, 3)
                         .addComponent(jLabel2))
-                    .addComponent(cmbRole, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(46, 46, 46)
+                    .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(cmbRole, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnReqAccess)))
+                .addGap(44, 44, 44)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TeamManagerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(DoctorInfoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -507,7 +510,7 @@ public class RegisterJPanel extends javax.swing.JPanel {
                 .addGap(48, 48, 48))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void BackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackActionPerformed

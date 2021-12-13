@@ -48,7 +48,7 @@ public class DoctorAvailabiltyPanel extends javax.swing.JPanel {
         this.ecosystem = ecosystem;
         dd = ecosystem.getEnterpriseDirectory().getDoctorDirectory();
         doctor = dd.getDoctor(ua);
-        lblClock.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/clockdoc.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblClock.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/clockdoc.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
         
     }
 
@@ -119,7 +119,7 @@ public class DoctorAvailabiltyPanel extends javax.swing.JPanel {
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 720, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1300, Short.MAX_VALUE)
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addGap(45, 45, 45)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -162,10 +162,10 @@ public class DoctorAvailabiltyPanel extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(132, 132, 132)
                         .addComponent(lblClock, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(135, Short.MAX_VALUE))
+                .addContainerGap(315, Short.MAX_VALUE))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

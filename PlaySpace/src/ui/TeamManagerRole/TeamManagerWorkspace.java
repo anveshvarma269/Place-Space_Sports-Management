@@ -45,7 +45,7 @@ public class TeamManagerWorkspace extends javax.swing.JPanel {
         team = sd.getTeam(ua);
         txtName.setText(team.getTeamManager());
        
-        lblTM.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Team Manager.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblTM.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Team Manager.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -216,7 +216,7 @@ public class TeamManagerWorkspace extends javax.swing.JPanel {
                                     .addComponent(jButton8)
                                     .addComponent(jButton3)
                                     .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 142, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 722, Short.MAX_VALUE)
                                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                                         .addComponent(lblTM, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -265,7 +265,7 @@ public class TeamManagerWorkspace extends javax.swing.JPanel {
                         .addComponent(jButton3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton6)
-                        .addContainerGap(51, Short.MAX_VALUE))
+                        .addContainerGap(231, Short.MAX_VALUE))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(lblTM, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -274,7 +274,7 @@ public class TeamManagerWorkspace extends javax.swing.JPanel {
                         .addGap(53, 53, 53))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed

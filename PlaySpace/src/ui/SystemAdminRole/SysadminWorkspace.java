@@ -31,7 +31,7 @@ public class SysadminWorkspace extends javax.swing.JPanel {
         date.setText(" "+String.valueOf(LocalTime.now().getHour()) + ":"+String.valueOf(LocalTime.now().getMinute()));
         this.ecosystem = ecosystem;
         this.container = container;
-        lblSA.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/SysAdmin.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblSA.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/SysAdmin.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -113,7 +113,7 @@ public class SysadminWorkspace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(19, 19, 19)
                         .addComponent(logout)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 139, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 719, Short.MAX_VALUE)
                 .addComponent(lblSA, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(120, 120, 120))
         );
@@ -130,7 +130,7 @@ public class SysadminWorkspace extends javax.swing.JPanel {
                         .addComponent(jLabel5)
                         .addGap(69, 69, 69)
                         .addComponent(lblSA, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(131, Short.MAX_VALUE))
+                        .addContainerGap(311, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnManageUsers)
@@ -141,7 +141,7 @@ public class SysadminWorkspace extends javax.swing.JPanel {
                         .addGap(182, 182, 182))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnManageUsersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageUsersActionPerformed

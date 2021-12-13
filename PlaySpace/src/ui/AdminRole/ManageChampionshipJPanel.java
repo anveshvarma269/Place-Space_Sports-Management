@@ -142,7 +142,7 @@ public class ManageChampionshipJPanel extends javax.swing.JPanel {
                                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jButton1)
                                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 648, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 45, Short.MAX_VALUE)))
+                                .addGap(0, 629, Short.MAX_VALUE)))
                         .addContainerGap())
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2)
@@ -169,7 +169,7 @@ public class ManageChampionshipJPanel extends javax.swing.JPanel {
                 .addGap(64, 64, 64))
         );
 
-        jPanel2.add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 720, 650));
+        jPanel2.add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1300, 650));
 
         jTabbedPane1.addTab("Standings", jPanel2);
 
@@ -274,7 +274,7 @@ public class ManageChampionshipJPanel extends javax.swing.JPanel {
                                 .addComponent(jLabel4)
                                 .addGap(18, 18, 18)
                                 .addComponent(lblScdStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(0, 90, Short.MAX_VALUE))
+                .addGap(0, 680, Short.MAX_VALUE))
             .addGroup(kGradientPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1)
@@ -288,7 +288,7 @@ public class ManageChampionshipJPanel extends javax.swing.JPanel {
             .addGroup(kGradientPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(btnBack)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 114, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 304, Short.MAX_VALUE)
                 .addGroup(kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel3)
@@ -309,7 +309,7 @@ public class ManageChampionshipJPanel extends javax.swing.JPanel {
                 .addGap(51, 51, 51))
         );
 
-        jPanel1.add(kGradientPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 710, 610));
+        jPanel1.add(kGradientPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
 
         jTabbedPane1.addTab("Schedules", jPanel1);
 

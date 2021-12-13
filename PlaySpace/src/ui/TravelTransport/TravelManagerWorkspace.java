@@ -33,7 +33,7 @@ public class TravelManagerWorkspace extends javax.swing.JPanel {
         this.ecosystem = ecosystem;
         this.ua = ua;
         this.container = container;
-        lblTM.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Travel Manager.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblTM.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Travel Manager.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -125,7 +125,7 @@ public class TravelManagerWorkspace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(87, 87, 87)
                         .addComponent(jButton1)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 141, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 721, Short.MAX_VALUE)
                 .addComponent(lblTM, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(107, 107, 107))
         );
@@ -150,10 +150,10 @@ public class TravelManagerWorkspace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(72, 72, 72)
                         .addComponent(lblTM, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(127, Short.MAX_VALUE))))
+                        .addContainerGap(307, Short.MAX_VALUE))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddTransportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddTransportActionPerformed
