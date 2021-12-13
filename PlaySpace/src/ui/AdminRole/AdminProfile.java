@@ -30,7 +30,7 @@ public class AdminProfile extends javax.swing.JPanel {
         this.container = container;
         this.ua = ua;
         lblUname.setText(ua.getUsername());
-        lblbg.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Admin bg.png").getImage().getScaledInstance(592, 608, Image.SCALE_DEFAULT)));
+        lblbg.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Admin Profil12e.png").getImage().getScaledInstance(592, 608, Image.SCALE_DEFAULT)));
         
     }
 
@@ -122,16 +122,13 @@ public class AdminProfile extends javax.swing.JPanel {
                         .addGap(140, 140, 140)
                         .addComponent(lblUname, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblbg, javax.swing.GroupLayout.DEFAULT_SIZE, 438, Short.MAX_VALUE)
+                .addComponent(lblbg, javax.swing.GroupLayout.DEFAULT_SIZE, 1008, Short.MAX_VALUE)
                 .addContainerGap())
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(lblbg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
@@ -140,11 +137,14 @@ public class AdminProfile extends javax.swing.JPanel {
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                 .addGap(126, 126, 126)
                                 .addComponent(lblUname)))
-                        .addGap(0, 370, Short.MAX_VALUE)))
+                        .addGap(0, 550, Short.MAX_VALUE))
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(lblbg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnPwdUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPwdUpdateActionPerformed

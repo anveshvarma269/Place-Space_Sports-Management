@@ -22,7 +22,7 @@ public class AddTeamJPanel extends javax.swing.JPanel {
     JPanel container;
     public AddTeamJPanel() {
         initComponents();
-        lblTeam.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Player.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblTeam.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Player.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -124,7 +124,7 @@ public class AddTeamJPanel extends javax.swing.JPanel {
                             .addComponent(jLabel2)
                             .addGap(18, 18, 18)
                             .addComponent(txtTeamAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 627, Short.MAX_VALUE)
                 .addComponent(lblTeam, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(54, 54, 54))
         );
@@ -155,10 +155,10 @@ public class AddTeamJPanel extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(102, 102, 102)
                         .addComponent(lblTeam, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(148, Short.MAX_VALUE))
+                .addContainerGap(328, Short.MAX_VALUE))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBack3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBack3ActionPerformed

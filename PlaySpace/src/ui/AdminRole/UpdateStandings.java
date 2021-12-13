@@ -36,7 +36,7 @@ public class UpdateStandings extends javax.swing.JPanel {
         sd = ecosystem.getEnterpriseDirectory().getSportsDirectory();
         initComponents();
         populateSelect();
-        lblbg.setIcon(new ImageIcon(new ImageIcon("/Users/akhilrajeev/Desktop/AED/Commit/AEDProject/Icon/Admin bg.png").getImage().getScaledInstance(592, 608, Image.SCALE_DEFAULT)));
+        lblbg.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Admin Profile2.png").getImage().getScaledInstance(592, 608, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -159,7 +159,7 @@ public class UpdateStandings extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(213, 213, 213)
                         .addComponent(btnWinner, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 593, Short.MAX_VALUE)
                 .addComponent(lblbg, javax.swing.GroupLayout.PREFERRED_SIZE, 353, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                 .addContainerGap()
@@ -196,11 +196,11 @@ public class UpdateStandings extends javax.swing.JPanel {
                             .addComponent(jLabel3))
                         .addGap(35, 35, 35)
                         .addComponent(btnWinner)
-                        .addContainerGap(176, Short.MAX_VALUE))
+                        .addContainerGap(356, Short.MAX_VALUE))
                     .addComponent(lblbg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void cmbSportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbSportActionPerformed

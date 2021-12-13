@@ -36,7 +36,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="720" height="620"/>
+          <AbsoluteConstraints x="0" y="0" width="1300" height="800"/>
         </Constraint>
       </Constraints>
 
@@ -79,7 +79,7 @@
                           <Component id="btnWinner" min="-2" pref="113" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="13" max="32767" attributes="0"/>
+                  <EmptySpace pref="593" max="32767" attributes="0"/>
                   <Component id="lblbg" min="-2" pref="353" max="-2" attributes="0"/>
               </Group>
               <Group type="102" attributes="0">
@@ -120,7 +120,7 @@
                           </Group>
                           <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                           <Component id="btnWinner" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="176" max="32767" attributes="0"/>
+                          <EmptySpace pref="356" max="32767" attributes="0"/>
                       </Group>
                       <Component id="lblbg" max="32767" attributes="0"/>
                   </Group>

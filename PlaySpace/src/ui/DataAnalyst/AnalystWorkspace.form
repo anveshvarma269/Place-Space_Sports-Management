@@ -80,7 +80,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="730" height="620"/>
+          <AbsoluteConstraints x="0" y="0" width="1300" height="800"/>
         </Constraint>
       </Constraints>
 
@@ -101,14 +101,14 @@
                   </Group>
                   <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
                   <Component id="lblSprtsAnlytc" min="-2" pref="200" max="-2" attributes="0"/>
-                  <EmptySpace pref="123" max="32767" attributes="0"/>
+                  <EmptySpace pref="693" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="255" max="32767" attributes="0"/>
+                  <EmptySpace pref="435" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="lblSprtsAnlytc" min="-2" pref="200" max="-2" attributes="0"/>
                       <Group type="102" attributes="0">

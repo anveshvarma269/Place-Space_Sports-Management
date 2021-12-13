@@ -47,7 +47,7 @@ public class MainFrame extends javax.swing.JFrame {
        useraccountDirectory = ecosystem.getUserAccountDirectory();
        // this.setSize(1680, 1050);
        date.setText(" "+String.valueOf(LocalTime.now().getHour()) + ":"+String.valueOf(LocalTime.now().getMinute()));
-         lblHome.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Home.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+         lblHome.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/Home.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
         ArrayList<UserAccount> users = useraccountDirectory.getUserAccountList();
          
          for(UserAccount ua: users)
@@ -101,15 +101,20 @@ public class MainFrame extends javax.swing.JFrame {
         kGradientPanel1.setkEndColor(new java.awt.Color(204, 204, 255));
         kGradientPanel1.setkStartColor(new java.awt.Color(255, 204, 204));
         kGradientPanel1.setMaximumSize(new java.awt.Dimension(720, 460));
-        kGradientPanel1.setPreferredSize(new java.awt.Dimension(1680, 1050));
+        kGradientPanel1.setPreferredSize(new java.awt.Dimension(1920, 1080));
+        kGradientPanel1.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
+            public void propertyChange(java.beans.PropertyChangeEvent evt) {
+                kGradientPanel1PropertyChange(evt);
+            }
+        });
 
-        jLabel6.setFont(new java.awt.Font("Avenir", 2, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Avenir", 2, 36)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 153));
-        jLabel6.setText("Sports Management System");
+        jLabel6.setText("P L A Y S P A C E");
 
         jLabel7.setFont(new java.awt.Font("Avenir", 2, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(102, 0, 102));
-        jLabel7.setText("Helping you manage your games like a champ!"); // NOI18N
+        jLabel7.setText("Assisting you to organize your games like a Pro"); // NOI18N
 
         jLabel3.setFont(new java.awt.Font("Avenir Next", 1, 48)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(102, 0, 102));
@@ -230,30 +235,37 @@ public class MainFrame extends javax.swing.JFrame {
 
         jPanel3.add(kGradientPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 280));
 
+        lblHome.setAutoscrolls(true);
+
         javax.swing.GroupLayout kGradientPanel1Layout = new javax.swing.GroupLayout(kGradientPanel1);
         kGradientPanel1.setLayout(kGradientPanel1Layout);
         kGradientPanel1Layout.setHorizontalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel7)))
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addGap(63, 63, 63)
-                        .addComponent(lblHome, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 93, Short.MAX_VALUE)
-                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addGap(145, 145, 145)
-                        .addComponent(date))
-                    .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                .addContainerGap(706, Short.MAX_VALUE)
+                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                        .addComponent(lblHome)
+                        .addGap(300, 300, 300)
+                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                                .addGap(145, 145, 145)
+                                .addComponent(date))
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(54, 54, 54))))
+            .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addGap(51, 51, 51)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
+                        .addGap(66, 66, 66)
+                        .addComponent(jLabel7)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -262,22 +274,20 @@ public class MainFrame extends javax.swing.JFrame {
                 .addComponent(date)
                 .addGap(31, 31, 31)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 88, Short.MAX_VALUE)
+                .addGap(55, 55, 55)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 141, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(18, 18, 18)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addGap(18, 18, 18)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(kGradientPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addGap(14, 14, 14)
-                        .addComponent(jLabel7)
-                        .addGap(56, 56, 56)
-                        .addComponent(lblHome, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(lblHome, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(56, 56, 56))
         );
 
-        homePanel.add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 650));
+        homePanel.add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
 
         container.add(homePanel, "card2");
 
@@ -412,6 +422,10 @@ public class MainFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void kGradientPanel1PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_kGradientPanel1PropertyChange
+        // TODO add your handling code here:
+    }//GEN-LAST:event_kGradientPanel1PropertyChange
 
     /**
      * @param args the command line arguments

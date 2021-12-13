@@ -34,7 +34,7 @@ public class LogisticWorkSpace extends javax.swing.JPanel {
         this.container = container;
         this.ecosystem = ecosystem;
         this.ua = ua;
-        lblLog.setIcon(new ImageIcon(new ImageIcon("/src/Business/Util/Icon/Logistics.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
+        lblLog.setIcon(new ImageIcon(new ImageIcon("/src/Sports/Util/Icon/Logistics.png").getImage().getScaledInstance(250, 250, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -116,7 +116,7 @@ public class LogisticWorkSpace extends javax.swing.JPanel {
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                         .addGap(101, 101, 101)
                         .addComponent(btnLogout)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 133, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 713, Short.MAX_VALUE)
                 .addComponent(lblLog, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(113, 113, 113))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
@@ -139,7 +139,7 @@ public class LogisticWorkSpace extends javax.swing.JPanel {
                         .addComponent(jLabel4)
                         .addGap(71, 71, 71)
                         .addComponent(lblLog, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(128, Short.MAX_VALUE))
+                        .addContainerGap(308, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton1)
@@ -150,7 +150,7 @@ public class LogisticWorkSpace extends javax.swing.JPanel {
                         .addGap(184, 184, 184))))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

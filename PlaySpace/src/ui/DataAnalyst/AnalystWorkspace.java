@@ -38,7 +38,7 @@ public class AnalystWorkspace extends javax.swing.JPanel {
         date.setText(" "+String.valueOf(LocalTime.now().getHour()) + ":"+String.valueOf(LocalTime.now().getMinute()));
         sd = ecosystem.getEnterpriseDirectory().getSportsDirectory();
         populateSelect();
-        lblSprtsAnlytc.setIcon(new ImageIcon(new ImageIcon("src/Business/Util/Icon/Analyst 2.png").getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT)));
+        lblSprtsAnlytc.setIcon(new ImageIcon(new ImageIcon("src/Sports/Util/Icon/DataAnalsys.png").getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT)));
     }
 
     /**
@@ -124,12 +124,12 @@ public class AnalystWorkspace extends javax.swing.JPanel {
                         .addComponent(jButton1)))
                 .addGap(110, 110, 110)
                 .addComponent(lblSprtsAnlytc, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(123, Short.MAX_VALUE))
+                .addContainerGap(693, Short.MAX_VALUE))
         );
         kGradientPanel1Layout.setVerticalGroup(
             kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                .addContainerGap(255, Short.MAX_VALUE)
+                .addContainerGap(435, Short.MAX_VALUE)
                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblSprtsAnlytc, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
@@ -145,7 +145,7 @@ public class AnalystWorkspace extends javax.swing.JPanel {
                 .addGap(165, 165, 165))
         );
 
-        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 620));
+        add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1300, 800));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

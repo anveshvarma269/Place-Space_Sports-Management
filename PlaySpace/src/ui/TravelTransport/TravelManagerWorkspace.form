@@ -29,7 +29,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="720" height="620"/>
+          <AbsoluteConstraints x="0" y="0" width="1300" height="800"/>
         </Constraint>
       </Constraints>
 
@@ -64,7 +64,7 @@
                           <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="141" max="32767" attributes="0"/>
+                  <EmptySpace pref="721" max="32767" attributes="0"/>
                   <Component id="lblTM" min="-2" pref="250" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
               </Group>
@@ -92,7 +92,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                           <Component id="lblTM" min="-2" pref="250" max="-2" attributes="0"/>
-                          <EmptySpace pref="127" max="32767" attributes="0"/>
+                          <EmptySpace pref="307" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>

@@ -63,7 +63,7 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="-10" y="-30" width="720" height="650"/>
+                  <AbsoluteConstraints x="-10" y="-30" width="1300" height="650"/>
                 </Constraint>
               </Constraints>
 
@@ -81,7 +81,7 @@
                                               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel5" min="-2" pref="648" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="0" pref="45" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="629" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -270,7 +270,7 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="0" y="0" width="710" height="610"/>
+                  <AbsoluteConstraints x="0" y="0" width="1300" height="800"/>
                 </Constraint>
               </Constraints>
 
@@ -307,7 +307,7 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace min="0" pref="90" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="680" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
@@ -321,7 +321,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="btnBack" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="114" max="32767" attributes="0"/>
+                          <EmptySpace pref="304" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
